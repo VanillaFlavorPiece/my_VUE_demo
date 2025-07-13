@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="首页 logo" src="./assets/doro.gif">
+  <HelloWorld msg="此为VUE项目的主页"/>
+  <testCompo msg="此为测试VUE项目添加用"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import testCompo from './components/testCompo.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    testCompo
   }
 }
 </script>
