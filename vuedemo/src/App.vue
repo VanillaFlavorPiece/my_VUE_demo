@@ -1,6 +1,7 @@
 <template>
+    <HelloWorld msg="此为模拟的导航栏"/>
   <img alt="首页 logo" src="./assets/doro.gif">
-  <HelloWorld msg="此为VUE项目的主页"/>
+
   <testCompo msg="此为测试VUE项目添加用"/>
 </template>
 
